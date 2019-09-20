@@ -9,10 +9,12 @@ import java.util.stream.Collectors;
 
 public class ParameterValueMerger {
 
-    public List<ParameterValue> merge (List<ParameterValue> newParameterValue, List<ParameterValue> parameterValueOndevice) {
+    public List<ParameterValue> merge (List<ParameterValue> parameterValueOndevice, List<ParameterValue> newParameterValue) {
 
         Map<String, ParameterValue> parameterValueMap = parameterValueOndevice.stream().collect(Collectors.toMap(p -> p.getTag(), p -> p));
         newParameterValue.stream().forEach(p -> parameterValueMap.put(p.getTag(), p));
+
+
         return Lists.newArrayList(parameterValueMap.values());
 
     }

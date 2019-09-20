@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c578b641-21d7-417f-8313-02bc09460c3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zarembski/data/ParameterValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zarembski/merger/ParameterValueMerger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ParameterValueMergerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zarembski/data/SlaveValues.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zarembski/data/ParameterValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zarembski/data/ParameterValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zarembski/merger/ParameterValueMerger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zarembski/merger/ParameterValueMerger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ParameterValueMergerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ParameterValueMergerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zarembski/data/ParameterValue$ParameterValueBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zarembski/data/ParameterValue$ParameterValueBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zarembski/data/ParameterValue$SlaveValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zarembski/data/ParameterValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zarembski/data/ParameterValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zarembski/merger/ParameterValueMerger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zarembski/merger/ParameterValueMerger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ParameterValueMergerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ParameterValueMergerTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,12 +47,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ParameterValueMergerTest">
+  <component name="RunManager" selected="JUnit.ParameterValueMergerTest.mergeObjectWithSlaveValues">
     <configuration name="ParameterValueMergerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ParameterObjectsMerger" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ParameterValueMergerTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParameterValueMergerTest.mergeObjectWithSlaveValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ParameterObjectsMerger" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ParameterValueMergerTest" />
+      <option name="METHOD_NAME" value="mergeObjectWithSlaveValues" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -65,8 +79,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ParameterValueMergerTest" />
+        <item itemvalue="JUnit.ParameterValueMergerTest.mergeObjectWithSlaveValues" />
         <item itemvalue="JUnit.ParameterValueMergerTest.whenMergeObjectThenReturnList" />
+        <item itemvalue="JUnit.ParameterValueMergerTest" />
       </list>
     </recent_temporary>
   </component>

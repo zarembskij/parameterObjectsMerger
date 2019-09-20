@@ -11,15 +11,7 @@ import java.util.List;
 @Data
 @Builder
 public class ParameterValue {
-
     private String tag;
     private String masterValue;
     private List<SlaveValues> slaveValuesList = Lists.newArrayList();
-
-    @AllArgsConstructor
-    @Data
-    private class SlaveValues {
-        private Long profile;
-        private String slavevalue;
-    }
 }
