@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c578b641-21d7-417f-8313-02bc09460c3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zarembski/data/SlaveValues.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zarembski/data/ParameterValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zarembski/data/ParameterValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zarembski/merger/ParameterValueMerger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zarembski/merger/ParameterValueMerger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ParameterValueMergerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ParameterValueMergerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zarembski/data/ParameterValue$ParameterValueBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zarembski/data/ParameterValue$ParameterValueBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zarembski/data/ParameterValue$SlaveValues.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zarembski/data/ParameterValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zarembski/data/ParameterValue.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/zarembski/merger/ParameterValueMerger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zarembski/merger/ParameterValueMerger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ParameterValueMergerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ParameterValueMergerTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,5 +101,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zarembski/merger/ParameterValueMerger.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="((java.util.ArrayList)((ParameterValue)((HashMap.Node)((HashMap)parameterValueMap).entrySet().toArray()[2]).getValue()).slaveValuesList).get(0)" custom="java.util.ArrayList,java.util.HashMap.Node,com.zarembski.data.ParameterValue,java.util.HashMap" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
